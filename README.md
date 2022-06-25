@@ -45,7 +45,5 @@ No packages published
  github-pages Active
 # Languages
 HTML
-
 CSS
-
 JAVASCRIPT
