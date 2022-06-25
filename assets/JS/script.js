@@ -15,8 +15,8 @@ clearNumber.addEventListener("click", () => {
 
 function deleteNumber() {
   if ("del") {
-    let array = displayNum.value.split("");
-    array.pop();
+      let array = displayNum.value.split( "" );
+      
     displayNum.value = array.join("");
   }
 }
