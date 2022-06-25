@@ -3,11 +3,11 @@ let displayNum = document.querySelector("#display-number");
 let clearNumber = document.querySelector("#clearNumbers");
 
 function calcNumbers(i) {
-  display.value = display.value + i;
+  displayNum.value = displayNum.value + i;
 }
 
 //Clear and Delete
-clearNum.addEventListener("click", () => {
+clearNumber.addEventListener("click", () => {
   if ("c") {
     displayNum.value = "";
   }
